@@ -1,0 +1,57 @@
+@import url('https://rsms.me/inter/inter.css');
+html { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
+}
+
+.vaisakhmurali
+{
+    margin-top: 30vh;
+    font-size: 600%;
+    font-family:Inter;
+    font-weight: 900;
+}
+
+.themebutton
+{
+    border-radius: 50%;
+    text-align: right;
+}
+
+.links
+{
+    margin-top: 2vh;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.bodytext
+{
+    font-size: 110%;
+    font-family:Inter;
+    font-weight: 500;
+}
+
+.dark-mode
+{
+    background-color: #232222;
+    color: white;
+}
+
+body.dark-mode > div > button
+{
+    color: white;
+}
+
+body.dark-mode > div > div > button
+{
+    color: white;
+}
+
+.menu
+{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
